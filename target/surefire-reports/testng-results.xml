@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="40106" started-at="2020-08-26T19:25:41Z" finished-at="2020-08-26T19:26:21Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="33055" started-at="2020-08-26T19:25:41Z" finished-at="2020-08-26T19:26:14Z">
+      <class name="testCases.CPA001_BuscarGoogle">
+        <test-method status="PASS" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:testCases.CPA001_BuscarGoogle@49fc609f]" name="initialize" is-config="true" duration-ms="31467" started-at="2020-08-26T19:25:41Z" finished-at="2020-08-26T19:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testCases.CPA001_BuscarGoogle@49fc609f]" name="test2" duration-ms="2" started-at="2020-08-26T19:26:13Z" finished-at="2020-08-26T19:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:testCases.CPA001_BuscarGoogle@49fc609f]" name="testParameterWithXML" duration-ms="1508" started-at="2020-08-26T19:26:13Z" finished-at="2020-08-26T19:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.CPA001_BuscarGoogle@49fc609f]" name="tearDown" is-config="true" duration-ms="62" started-at="2020-08-26T19:26:14Z" finished-at="2020-08-26T19:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CPA001_BuscarGoogle -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="7029" started-at="2020-08-26T19:26:14Z" finished-at="2020-08-26T19:26:21Z">
+      <class name="testCases.CPA001_BuscarGoogle">
+        <test-method status="PASS" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:testCases.CPA001_BuscarGoogle@3fd7a715]" name="initialize" is-config="true" duration-ms="5384" started-at="2020-08-26T19:26:14Z" finished-at="2020-08-26T19:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testCases.CPA001_BuscarGoogle@3fd7a715]" name="test2" duration-ms="1" started-at="2020-08-26T19:26:20Z" finished-at="2020-08-26T19:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:testCases.CPA001_BuscarGoogle@3fd7a715]" name="testParameterWithXML" duration-ms="1580" started-at="2020-08-26T19:26:20Z" finished-at="2020-08-26T19:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.CPA001_BuscarGoogle@3fd7a715]" name="tearDown" is-config="true" duration-ms="62" started-at="2020-08-26T19:26:21Z" finished-at="2020-08-26T19:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CPA001_BuscarGoogle -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

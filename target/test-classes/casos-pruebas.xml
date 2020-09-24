@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests">
+
+    <!--
+        <parameter name="host" value="192.168.232.129" />
+        <test name="ChromeTest">
+            <classes>
+                <class name="testCases.Caso001       </class>
+            </classes>
+        </test>
+
+        <test name="FirefoxTest">
+            <classes>
+                <class name="testCases.Caso001       </class>
+            </classes>
+        </test>
+        -->
+        <test name="ChromeTest">
+            <parameter name="browser" value="chrome"></parameter>
+            <parameter name="port" value="0000"></parameter>
+            <parameter name="firstname" value="Mauricio"></parameter>
+            <parameter name="lastname" value="Torres"></parameter>
+            <parameter name="email" value="torresmauricio.es@gmail.com"></parameter>
+            <parameter name="num" value="4446462131"></parameter>
+            <parameter name="direccion" value="Isla Piazzi 1443"></parameter>
+            <classes>
+                <class name="testCases.Caso001">
+                </class>
+            </classes>
+        </test>
+
+
+    <!--
+        <test name="FirefoxTest">
+            <parameter name="browser" value="firefox" />
+            <parameter name="port" value="0000" />
+            <classes>
+                <class name="testCases.Caso001       </class>
+            </classes>
+        </test>
+            <test name="EdgeTest">
+                <parameter name="browser" value="edge" />
+                <classes>
+                    <class name="testCases.Caso001           </class>
+                </classes>
+            </test>
+    -->
+
+</suite>
